@@ -1,4 +1,3 @@
-#********************************Random Forest Implementation for Classification between Interical and Preictal iEEG signals********************************
 
 import scipy.io
 import numpy as np
