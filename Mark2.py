@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import random
 import sklearn.preprocessing
 import csv
+import pandas as pd
 
 try:
 
@@ -28,7 +29,7 @@ def toPNG():
 
     for i in range(0,3000):
         graph = pydot.graph_from_dot_file('tree_%d.dot' %i)
-            graph.write_png('tree_%i.png' %i)
+        graph.write_png('tree_%i.png' %i)
 
 # Returns the Fast Fourier Transform of the raw data.
 def fft(data):
